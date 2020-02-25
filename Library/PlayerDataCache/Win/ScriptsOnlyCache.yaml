@@ -14,7 +14,6 @@ ScriptsOnlyBuild:
     - TextureScroll
     - TiltWindow
     Unity.InputSystem.dll:
-    - UnityEngine.InputSystem.Editor.InputDebuggerWindow
     - UnityEngine.InputSystem.InputActionAsset
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
@@ -38,12 +37,6 @@ ScriptsOnlyBuild:
     - UnityEngine.Rendering.PostProcessing.Vignette
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -94,55 +87,55 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11196}
+      Script: {instanceID: 11300}
     - Class: 114
-      Script: {instanceID: 11218}
+      Script: {instanceID: 11322}
     - Class: 114
-      Script: {instanceID: 11304}
+      Script: {instanceID: 11408}
     - Class: 114
-      Script: {instanceID: 11352}
+      Script: {instanceID: 11456}
     - Class: 114
-      Script: {instanceID: 11450}
+      Script: {instanceID: 11554}
     - Class: 114
-      Script: {instanceID: 11500}
+      Script: {instanceID: 11604}
     - Class: 114
-      Script: {instanceID: 11656}
+      Script: {instanceID: 11760}
     - Class: 114
-      Script: {instanceID: 11694}
+      Script: {instanceID: 11798}
     - Class: 114
-      Script: {instanceID: 11824}
+      Script: {instanceID: 11928}
     - Class: 114
-      Script: {instanceID: 11946}
+      Script: {instanceID: 12050}
     - Class: 114
-      Script: {instanceID: 11994}
+      Script: {instanceID: 12100}
     - Class: 114
-      Script: {instanceID: 12064}
+      Script: {instanceID: 12170}
     - Class: 114
-      Script: {instanceID: 12178}
+      Script: {instanceID: 12284}
     - Class: 114
-      Script: {instanceID: 12428}
+      Script: {instanceID: 12534}
     - Class: 114
-      Script: {instanceID: 12480}
+      Script: {instanceID: 12586}
     - Class: 114
-      Script: {instanceID: 12532}
+      Script: {instanceID: 12638}
     - Class: 114
-      Script: {instanceID: 12756}
+      Script: {instanceID: 12862}
     - Class: 114
-      Script: {instanceID: 12822}
+      Script: {instanceID: 12928}
     - Class: 114
-      Script: {instanceID: 12996}
+      Script: {instanceID: 13102}
     - Class: 114
-      Script: {instanceID: 13062}
+      Script: {instanceID: 13168}
     - Class: 114
-      Script: {instanceID: 13256}
+      Script: {instanceID: 13362}
     - Class: 114
-      Script: {instanceID: 13302}
+      Script: {instanceID: 13408}
     - Class: 114
-      Script: {instanceID: 13372}
+      Script: {instanceID: 13478}
     - Class: 114
-      Script: {instanceID: 13616}
+      Script: {instanceID: 13722}
     - Class: 114
-      Script: {instanceID: 13770}
+      Script: {instanceID: 13876}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -189,19 +182,19 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11218}
+      Script: {instanceID: 11322}
     - Class: 114
-      Script: {instanceID: 11450}
+      Script: {instanceID: 11554}
     - Class: 114
-      Script: {instanceID: 12064}
+      Script: {instanceID: 12058}
     - Class: 114
-      Script: {instanceID: 13302}
+      Script: {instanceID: 12170}
     - Class: 114
-      Script: {instanceID: 13770}
+      Script: {instanceID: 13408}
     - Class: 114
-      Script: {instanceID: 81178}
+      Script: {instanceID: 13876}
     - Class: 114
-      Script: {instanceID: 107300}
+      Script: {instanceID: 21102}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -493,6 +486,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ScoreManager
+  - hash:
+      serializedVersion: 2
+      Hash: cbb89ecf7d01156d8656988c4c095f79
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OpeningScroller
   - hash:
       serializedVersion: 2
       Hash: 22f6558e50a4fa49ebcab8093edab5ae
@@ -967,14 +966,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: cbb89ecf7d01156d8656988c4c095f79
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OpeningScroller
   platform: 5
   scenePathNames:
   - Assets/Scenes/Opener.unity
   - Assets/Scenes/Level01.unity
-  playerPath: C:/Users/myke_/Desktop/Rehabilitation/GameJam2020.exe
+  playerPath: C:/Users/koolr/Desktop/REHABILITATION.exe
